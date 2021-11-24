@@ -1,6 +1,6 @@
 version: 0.1.0   
 
-name: A stack to deploy nextjs site to AWS S3
+name: A stack to deploy nextjs app
 description: A stack to deploy nextjs site to AWS S3
 
 branding:
