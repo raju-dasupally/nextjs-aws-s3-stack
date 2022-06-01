@@ -1,1 +1,8 @@
-
+name: test-runner
+'on':
+  - workflow_dispatch 
+jobs:
+  oras-test:
+    runs-on: self-hosted
+    steps:
+      - run: oras help
