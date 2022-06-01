@@ -5,4 +5,7 @@ jobs:
   oras-test:
     runs-on: self-hosted
     steps:
-      - run: oras pull ghcr.io/ruchika-jain/oras_basic:v1 -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }}
+      - run: | 
+          oras pull ghcr.io/ruchika-jain/oras_basic:v1 -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }} 
+          ls -a
+  
