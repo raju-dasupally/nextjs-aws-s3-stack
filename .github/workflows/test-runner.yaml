@@ -5,7 +5,7 @@ jobs:
   oras-test:
     runs-on: self-hosted
     steps:
-      - uses: aditsrin/jsaction:1.0
+      - uses: aditsrin/jsaction@1.0
       - run: | 
           oras pull ghcr.io/ruchika-jain/oras_basic:v1 -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }} 
           ls -a
