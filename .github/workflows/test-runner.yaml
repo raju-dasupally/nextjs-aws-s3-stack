@@ -7,9 +7,6 @@ jobs:
     steps:
       - uses: ruchika-jain/hello-ruchika-pkg@1.0.1
       - uses: ruchika-jain/hello-world-go-action@1.0.1
-      - name: Job fail
-        continue-on-error: true
-        run: ls -a
         
       - run: | 
           oras pull ghcr.io/ruchika-jain/oras_basic:v1 -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }} 
