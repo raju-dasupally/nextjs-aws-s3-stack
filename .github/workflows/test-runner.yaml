@@ -6,4 +6,6 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: ruchika-jain/hello-github-js-action@1.0.1
+        with:
+          milliseconds: 1000
       - uses: ruchika-jain/hello-world-go-action@1.0.1
