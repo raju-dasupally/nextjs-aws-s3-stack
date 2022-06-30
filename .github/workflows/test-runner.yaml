@@ -9,3 +9,4 @@ jobs:
         with:
           milliseconds: 1000
       - uses: ruchika-jain/hello-world-go-action@1.0.1
+      - uses: ruchika-jain/composite_action@1.0.1
